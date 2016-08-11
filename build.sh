@@ -1,1 +1,1 @@
-docker build -t xxstop/wphp .
+docker build -t xxstop/wphp56 .
