@@ -19,7 +19,7 @@ ADD https://getcomposer.org/download/1.2.0/composer.phar /usr/local/bin/composer
 RUN chmod +x /usr/local/bin/composer
 
 ### phpext
-RUN apt-get -y install php-mbstring php-dom php-mcrypt php-gd php-bcmath php-mysql php-imagick --allow-unauthenticated
+RUN apt-get -y install php-mbstring php-dom php-mcrypt php-gd php-bcmath php-mysql php-imagick
 
 ### composer config
 RUN composer config -g repo.packagist composer https://packagist.phpcomposer.com
