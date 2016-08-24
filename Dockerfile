@@ -25,7 +25,7 @@ ADD https://getcomposer.org/download/1.2.0/composer.phar /usr/local/bin/composer
 RUN chmod +x /usr/local/bin/composer
 
 ### phpext
-RUN apt-get -y install php5.6-mbstring php5.6-dom php5.6-mcrypt php5.6-gd php5.6-bcmath php5.6-mysql php5.6-imagick
+RUN apt-get -y install php5.6-mbstring php5.6-dom php5.6-mcrypt php5.6-gd php5.6-bcmath php5.6-mysql php5.6-imagick --allow-unauthenticated
 
 ### composer config
 RUN composer config -g repo.packagist composer https://packagist.phpcomposer.com
