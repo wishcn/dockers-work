@@ -11,6 +11,9 @@ RUN apt-get -y update
 ### wget/curl
 RUN apt-get -y install curl wget
 
+### vim
+RUN apt-get -y install vim
+
 ### git
 RUN apt-get -y install git-core
 
